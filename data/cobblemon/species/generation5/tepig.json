@@ -115,7 +115,7 @@
         "item": "minecraft:porkchop",
         "quantityRange": "1-2"
       },
-           {
+    {
         "item": "farmersdelight:ham",
         "quantityRange": "1-2"
       },
