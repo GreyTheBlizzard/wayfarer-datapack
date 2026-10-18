@@ -2,5 +2,21 @@
   "pack": {
     "description": "1.21.1 Trailblazers Datapack",
     "pack_format": 48
+  },
+    "filter": {
+    "block": [
+      {
+        "namespace": "cobblemon",
+        "path": "fossils/mewtwo\\.json"
+      },
+      {
+        "namespace": "cobblemon",
+        "path": "fossils/genesect\\.json"
+      },
+      {
+        "namespace": "cobblemon",
+        "path": "fossils/typenull\\.json"
+      }
+    ]
   }
 }
