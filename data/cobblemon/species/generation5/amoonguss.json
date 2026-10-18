@@ -96,8 +96,7 @@
       },
       {
         "item": "minecraft:crimson_fungus",
-        "quantityRange": "2-4",
-        "percentage": 25.0
+        "quantityRange": "2-4"
       }
     ]
   },
