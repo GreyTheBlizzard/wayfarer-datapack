@@ -14,9 +14,9 @@
       "dynamaxBlocked": true,
       "baseStats": {
         "hp": 80,
-        "attack": 105,
+        "attack": 97,
         "defence": 115,
-        "special_attack": 130,
+        "special_attack": 138,
         "special_defence": 115,
         "speed": 80
       },
