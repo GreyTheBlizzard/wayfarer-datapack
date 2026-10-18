@@ -1,0 +1,25 @@
+{
+  "target": "cobblemon:gengar",
+  "forms": [
+    {
+      "name": "Mega",
+      "pokedex": ["cobblemon.species.gengar-mega.desc"],
+      "abilities": ["cursedbody", "h:cursedbody"],
+      "labels": ["gen1", "mega"],
+      "aspects": ["mega"],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "baseStats": {
+        "hp": 60,
+        "attack": 75,
+        "defence": 90,
+        "special_attack": 150,
+        "special_defence": 95,
+        "speed": 130
+      },
+      "baseScale": 1.0,
+      "height": 14,
+      "weight": 405
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:metagross",
+  "features": ["mega_evolution"],
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "steel",
+      "secondaryType": "psychic",
+      "pokedex": ["cobblemon.species.metagross-mega.desc"],
+      "abilities": ["toughclaws", "h:toughclaws"],
+      "labels": ["gen3", "mega"],
+      "aspects": ["mega"],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "baseStats": {
+        "hp": 80,
+        "attack": 140,
+        "defence": 140,
+        "special_attack": 110,
+        "special_defence": 120,
+        "speed": 110
+      },
+      "baseScale": 1.0,
+      "height": 25,
+      "weight": 9429
+    }
+  ]
+}

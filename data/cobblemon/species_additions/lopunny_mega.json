@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:lopunny",
+  "features": ["mega_evolution"],
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "normal",
+      "secondaryType": "fighting",
+      "pokedex": ["cobblemon.species.lopunny-mega.desc"],
+      "abilities": ["scrappy", "h:scrappy"],
+      "labels": ["gen4", "mega"],
+      "aspects": ["mega"],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "baseStats": {
+        "hp": 65,
+        "attack": 130,
+        "defence": 94,
+        "special_attack": 60,
+        "special_defence": 96,
+        "speed": 135
+      },
+      "baseScale": 1.0,
+      "height": 13,
+      "weight": 283
+    }
+  ]
+}

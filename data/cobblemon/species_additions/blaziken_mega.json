@@ -1,0 +1,31 @@
+{
+  "target": "cobblemon:blaziken",
+  "features": ["mega_evolution"],
+  "forms": [
+    {
+      "name": "Mega",
+      "pokedex": ["cobblemon.species.blaziken-mega.desc"],
+      "abilities": ["speedboost", "h:speedboost"],
+      "labels": ["gen3", "mega"],
+      "aspects": ["mega"],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "baseStats": {
+        "hp": 80,
+        "attack": 145,
+        "defence": 90,
+        "special_attack": 130,
+        "special_defence": 85,
+        "speed": 100
+      },
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.4,
+    "height": 3.25,
+    "fixed": false
+      },
+      "height": 19,
+      "weight": 520
+    }
+  ]
+}
