@@ -26,7 +26,7 @@
     "hp": 65,
     "attack": 47,
     "defence": 75,
-    "special_attack": 73,
+    "special_attack": 85,
     "special_defence": 85,
     "speed": 85
   },
@@ -186,6 +186,8 @@
     "tm:uturn",
     "tm:waterpulse",
     "tm:zenheadbutt",
+    "tm:bellydrum",
+    "tm:nastyplot",
     "tutor:aerialace",
     "tutor:aircutter",
     "tutor:bugbite",
