@@ -24,7 +24,7 @@
   ],
   "baseStats": {
     "hp": 65,
-    "attack": 73,
+    "attack": 85,
     "defence": 75,
     "special_attack": 47,
     "special_defence": 85,
@@ -186,6 +186,7 @@
     "tm:uturn",
     "tm:waterpulse",
     "tm:zenheadbutt",
+    "tm:swordsdance",
     "tutor:aerialace",
     "tutor:aircutter",
     "tutor:bugbite",
