@@ -26,7 +26,7 @@
     "defence": 55,
     "special_attack": 40,
     "special_defence": 65,
-    "speed": 97
+    "speed": 105
   },
   "evYield": {
     "hp": 0,
@@ -106,6 +106,8 @@
     "20:attract",
     "22:drainingkiss",
     "26:flail",
+    "30:guardsplit",
+    "30:powersplit",
     "31:sweetkiss",
     "34:takedown",
     "37:babydolleyes",
@@ -113,6 +115,7 @@
     "42:soak",
     "46:hydropump",
     "49:safeguard",
+    "50:revivalblessing",
     "egg:aquajet",
     "egg:aquaring",
     "egg:captivate",
