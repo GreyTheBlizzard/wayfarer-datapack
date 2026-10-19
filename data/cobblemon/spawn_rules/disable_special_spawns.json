@@ -1,0 +1,12 @@
+
+{
+  "displayName": "Disable Special Pokemon Spawns",
+  "enabled": true,
+  "components": [
+    {
+      "type": "filter",
+      "spawnSelector": "v.spawn.pokemon.species.has_label('legendary') || v.spawn.pokemon.species.has_label('mythical') || v.spawn.pokemon.species.has_label('ultra_beast') || v.spawn.pokemon.species.has_label('paradox')",
+      "allow": "false"
+    }
+  ]
+}
