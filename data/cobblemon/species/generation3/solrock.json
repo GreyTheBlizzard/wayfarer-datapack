@@ -15,7 +15,8 @@
   ],
   "aspects": [],
   "abilities": [
-    "levitate",
+    "flamebody",
+    "drought",
     "h:levitate"
   ],
   "eggGroups": [
@@ -23,11 +24,11 @@
   ],
   "baseStats": {
     "hp": 90,
-    "attack": 95,
+    "attack": 110,
     "defence": 85,
-    "special_attack": 55,
-    "special_defence": 65,
-    "speed": 70
+    "special_attack": 45,
+    "special_defence": 70,
+    "speed": 75
   },
   "evYield": {
     "hp": 0,
@@ -114,6 +115,7 @@
     "20:zenheadbutt",
     "25:cosmicpower",
     "30:psychic",
+    "30:solarblade",
     "35:stoneedge",
     "40:solarbeam",
     "45:wonderroom",
@@ -195,6 +197,7 @@
     "tm:willowisp",
     "tm:wonderroom",
     "tm:zenheadbutt",
+    "tm:rapidspin",
     "tutor:allyswitch",
     "tutor:ancientpower",
     "tutor:bulldoze",
