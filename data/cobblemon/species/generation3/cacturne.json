@@ -15,8 +15,9 @@
   ],
   "aspects": [],
   "abilities": [
-    "sandveil",
-    "h:waterabsorb"
+    "waterabsorb",
+    "ironbarbs",
+    "h:sandveil"
   ],
   "eggGroups": [
     "grass",
@@ -25,9 +26,9 @@
   "baseStats": {
     "hp": 70,
     "attack": 115,
-    "defence": 60,
-    "special_attack": 115,
-    "special_defence": 60,
+    "defence": 80,
+    "special_attack": 75,
+    "special_defence": 80,
     "speed": 55
   },
   "evYield": {
@@ -118,10 +119,13 @@
     "16:bulletseed",
     "19:powertrip",
     "22:ingrain",
+    "24:comeuppance",
     "26:payback",
     "30:spikes",
+    "32:firstimpression",
     "35:suckerpunch",
     "38:pinmissile",
+    "40:hornleech",
     "44:energyball",
     "49:cottonspore",
     "54:sandstorm",
@@ -217,6 +221,7 @@
     "tm:venoshock",
     "tm:worryseed",
     "tm:zenheadbutt",
+    "tm:xscissor",
     "tutor:block",
     "tutor:bulldoze",
     "tutor:darkpulse",
