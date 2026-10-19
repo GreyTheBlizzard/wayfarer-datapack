@@ -15,6 +15,7 @@
   "aspects": [],
   "abilities": [
     "swiftswim",
+    "strongjaw",
     "h:waterveil"
   ],
   "eggGroups": [
@@ -22,11 +23,11 @@
   ],
   "baseStats": {
     "hp": 55,
-    "attack": 104,
+    "attack": 105,
     "defence": 105,
-    "special_attack": 94,
+    "special_attack": 64,
     "special_defence": 75,
-    "speed": 52
+    "speed": 75
   },
   "evYield": {
     "hp": 0,
@@ -118,7 +119,9 @@
     "11:feintattack",
     "14:waterpulse",
     "16:icefang",
+    "17:icefang",
     "19:brine",
+    "21:jawlock",
     "23:suckerpunch",
     "26:dive",
     "29:batonpass",
@@ -173,6 +176,8 @@
     "tm:waterfall",
     "tm:waterpulse",
     "tm:whirlpool",
+    "tm:poisonfang",
+    "tm:thunderfang",
     "tutor:aquatail",
     "tutor:bind",
     "tutor:bounce",
