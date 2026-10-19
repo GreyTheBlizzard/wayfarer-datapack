@@ -3,6 +3,7 @@
   "nationalPokedexNumber": 311,
   "name": "Plusle",
   "primaryType": "electric",
+  "secondaryType": "fairy",
   "maleRatio": 0.5,
   "height": 4,
   "weight": 42,
@@ -15,6 +16,7 @@
   "aspects": [],
   "abilities": [
     "plus",
+    "friendguard",
     "h:lightningrod"
   ],
   "eggGroups": [
@@ -22,11 +24,11 @@
   ],
   "baseStats": {
     "hp": 60,
-    "attack": 50,
-    "defence": 40,
-    "special_attack": 85,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 105,
     "special_defence": 75,
-    "speed": 95
+    "speed": 110
   },
   "evYield": {
     "hp": 0,
@@ -74,6 +76,8 @@
     "1:playnice",
     "1:bestow",
     "1:charm",
+    "1:magneticflux",
+    "1:gearup",
     "4:helpinghand",
     "7:spark",
     "10:encore",
@@ -82,6 +86,7 @@
     "19:electroball",
     "22:copycat",
     "26:charge",
+    "28:dazzlinggleam",
     "31:discharge",
     "34:batonpass",
     "37:agility",
