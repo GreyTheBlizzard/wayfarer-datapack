@@ -23,9 +23,9 @@
   ],
   "baseStats": {
     "hp": 60,
-    "attack": 85,
+    "attack": 95,
     "defence": 60,
-    "special_attack": 75,
+    "special_attack": 85,
     "special_defence": 50,
     "speed": 125
   },
@@ -110,6 +110,7 @@
     "17:doubleteam",
     "21:aerialace",
     "27:quickguard",
+    "30:flyingpress",
     "33:agility",
     "45:endeavor",
     "57:reversal",
