@@ -15,21 +15,21 @@
   ],
   "aspects": [],
   "abilities": [
-    "chlorophyll",
-    "solarpower",
-    "h:harvest"
+    "windrider",
+    "harvest",
+    "h:solarpower"
   ],
   "eggGroups": [
     "monster",
     "grass"
   ],
   "baseStats": {
-    "hp": 99,
-    "attack": 68,
+    "hp": 110,
+    "attack": 90,
     "defence": 83,
-    "special_attack": 72,
+    "special_attack": 65,
     "special_defence": 87,
-    "speed": 51
+    "speed": 60
   },
   "evYield": {
     "hp": 2,
