@@ -15,6 +15,7 @@
   "aspects": [],
   "abilities": [
     "swiftswim",
+    "competitive",
     "h:hydration"
   ],
   "eggGroups": [
@@ -22,11 +23,11 @@
   ],
   "baseStats": {
     "hp": 55,
-    "attack": 84,
+    "attack": 64,
     "defence": 105,
     "special_attack": 114,
     "special_defence": 75,
-    "speed": 52
+    "speed": 75
   },
   "evYield": {
     "hp": 0,
@@ -125,6 +126,7 @@
     "34:psychic",
     "39:aquatail",
     "45:coil",
+    "47:nastyplot",
     "50:hydropump",
     "egg:aquaring",
     "egg:barrier",
