@@ -14,7 +14,7 @@
   ],
   "aspects": [],
   "abilities": [
-    "cutecharm",
+    "fluffy",
     "normalize",
     "h:wonderskin"
   ],
@@ -23,12 +23,12 @@
     "fairy"
   ],
   "baseStats": {
-    "hp": 70,
-    "attack": 65,
-    "defence": 65,
-    "special_attack": 55,
-    "special_defence": 55,
-    "speed": 90
+    "hp": 80,
+    "attack": 60,
+    "defence": 75,
+    "special_attack": 90,
+    "special_defence": 50,
+    "speed": 100
   },
   "evYield": {
     "hp": 1,
@@ -115,6 +115,11 @@
     "1:foresight",
     "1:assist",
     "1:feintattack",
+    "1:bloodmoon",
+    "1:focusblast",
+    "1:triattack",
+    "1:alluringvoice",
+    "1:metronome",
     "egg:captivate",
     "egg:fakeout",
     "egg:mudbomb",
@@ -186,6 +191,8 @@
     "tm:wildcharge",
     "tm:workup",
     "tm:zenheadbutt",
+    "tm:futuresight",
+    "tm:dazzlinggleam",
     "tutor:babydolleyes",
     "tutor:calmmind",
     "tutor:chargebeam",
