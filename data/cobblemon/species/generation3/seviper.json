@@ -15,6 +15,7 @@
   "aspects": [],
   "abilities": [
     "shedskin",
+    "corrosion",
     "h:infiltrator"
   ],
   "eggGroups": [
@@ -22,11 +23,11 @@
     "dragon"
   ],
   "baseStats": {
-    "hp": 73,
-    "attack": 100,
+    "hp": 83,
+    "attack": 115,
     "defence": 60,
-    "special_attack": 100,
-    "special_defence": 60,
+    "special_attack": 60,
+    "special_defence": 75,
     "speed": 65
   },
   "evYield": {
