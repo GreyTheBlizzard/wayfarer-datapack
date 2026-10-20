@@ -1,0 +1,55 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "typecast-electric-1",
+      "pokemon": "typecast typecast_form=electric",
+      "presets": [
+        "redstone"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "1-25",
+      "weight": 10.0,
+      "weightMultiplier": {
+        "multiplier": 4.0,
+        "condition": {
+          "isThundering": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    },
+    {
+      "id": "typecast-electric-2",
+      "pokemon": "typecast typecast_form=electric",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "1-25",
+      "weight": 5.0,
+      "weightMultiplier": {
+        "multiplier": 4.0,
+        "condition": {
+          "isThundering": true
+        }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:lightning_rod"
+        ]
+      }
+    }
+  ]
+}

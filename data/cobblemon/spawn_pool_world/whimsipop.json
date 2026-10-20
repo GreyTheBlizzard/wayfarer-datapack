@@ -1,0 +1,35 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "typecast-water-1",
+      "pokemon": "typecast typecast_form=water",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "1-25",
+      "weight": 2.5,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "#minecraft:water"
+          ]
+        }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_river"
+        ]
+      }
+    }
+  ]
+}

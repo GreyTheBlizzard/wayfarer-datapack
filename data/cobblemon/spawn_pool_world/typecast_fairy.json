@@ -1,0 +1,45 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "typecast-bug-1",
+      "pokemon": "typecast typecast_form=bug",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "1-25",
+      "weight": 2.5,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cobweb",
+            "minecraft:ochre_froglight",
+            "minecraft:pearlescent_froglight",
+            "minecraft:verdant_froglight",
+            "minecraft:sunflower",
+            "minecraft:lantern",
+            "minecraft:pitcher_plant",
+            "minecraft:bee_nest",
+            "minecraft:beehive",
+            "minecraft:honeycomb_block",
+            "minecraft:honey_block"
+          ]
+        }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_savanna"
+        ]
+      }
+    }
+  ]
+}

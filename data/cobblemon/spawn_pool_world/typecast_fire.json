@@ -1,0 +1,38 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "typecast-dark-1",
+      "pokemon": "typecast typecast_form=dark",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "1-25",
+      "weight": 2.5,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:sculk_catalyst",
+            "minecraft:sculk_shrieker",
+            "minecraft:sculk",
+            "minecraft:sculk_sensor",
+            "minecraft:sculk_vein"
+          ]
+        }
+      },
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    }
+  ]
+}

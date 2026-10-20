@@ -1,0 +1,68 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aromatisse-midnight-1",
+      "pokemon": "aromatisse midnight",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "29-46",
+      "weight": 0.3,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "minecraft:swamp_hut"
+        ]
+      }
+    },
+    {
+      "id": "aromatisse-midnight-2",
+      "pokemon": "aromatisse midnight",
+      "presets": [
+        "natural",
+        "coral_blocks"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "29-46",
+      "weight": 0.24,
+      "condition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:shadowlands"
+        ]
+      }
+    },
+    {
+      "id": "aromatisse-midnight-3",
+      "pokemon": "aromatisse midnight",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "29-46",
+      "weight": 0.48,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:shadowlands"
+        ]
+      }
+    }
+  ]
+}

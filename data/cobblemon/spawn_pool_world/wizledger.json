@@ -1,0 +1,46 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "whimsipop-1",
+      "pokemon": "whimsipop",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "32-48",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:chorus_flower",
+          "minecraft:chorus_plant"
+        ]
+      }
+    },
+    {
+      "id": "whimsipop-2",
+      "pokemon": "whimsipop",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "32-48",
+      "weight": 0.15,
+      "condition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:crystal_peaks"
+        ]
+      }
+    }
+  ]
+}

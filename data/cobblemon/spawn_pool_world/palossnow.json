@@ -1,0 +1,33 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "noseferatu-1",
+      "pokemon": "noseferatu",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-53",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "night",
+        "neededNearbyBlocks": [
+          "minecraft:amethyst_block",
+          "minecraft:budding_amethyst",
+          "minecraft:small_amethyst_bud",
+          "minecraft:medium_amethyst_bud",
+          "minecraft:large_amethyst_bud",
+          "minecraft:amethyst_cluster"
+        ]
+      }
+    }
+  ]
+}

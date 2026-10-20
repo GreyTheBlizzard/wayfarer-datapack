@@ -1,0 +1,101 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "meowstic-midnight-1",
+      "pokemon": "meowstic midnight",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-47",
+      "weight": 0.2,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "isRaining": false,
+        "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
+      }
+    },
+    {
+      "id": "meowstic-midnight-2",
+      "pokemon": "meowstic midnight",
+      "presets": [
+        "natural",
+        "coral_blocks"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "33-47",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end",
+          "nullscape:void_barrens",
+          "nullscape:crystal_peaks",
+          "nullscape:shadowlands"
+        ]
+      }
+    },
+    {
+      "id": "meowstic-midday-1",
+      "pokemon": "meowstic midday",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-47",
+      "weight": 0.2,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "isRaining": false,
+        "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "meowstic-midday-2",
+      "pokemon": "meowstic midday",
+      "presets": [
+        "natural",
+        "coral_blocks"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "33-47",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end",
+          "nullscape:void_barrens",
+          "nullscape:crystal_peaks",
+          "nullscape:shadowlands"
+        ]
+      }
+    }
+  ]
+}

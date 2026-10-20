@@ -1,0 +1,101 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "espurr-midnight-1",
+      "pokemon": "espurr midnight",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "11-36",
+      "weight": 1.8,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "isRaining": false,
+        "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
+      }
+    },
+    {
+      "id": "espurr-midnight-2",
+      "pokemon": "espurr midnight",
+      "presets": [
+        "natural",
+        "coral_blocks"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "22-36",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end",
+          "nullscape:void_barrens",
+          "nullscape:crystal_peaks",
+          "nullscape:shadowlands"
+        ]
+      }
+    },
+    {
+      "id": "espurr-midday-1",
+      "pokemon": "espurr midday",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "11-36",
+      "weight": 1.8,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "isRaining": false,
+        "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "espurr-midday-2",
+      "pokemon": "espurr midday",
+      "presets": [
+        "natural",
+        "coral_blocks"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "22-36",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end",
+          "nullscape:void_barrens",
+          "nullscape:crystal_peaks",
+          "nullscape:shadowlands"
+        ]
+      }
+    }
+  ]
+}
