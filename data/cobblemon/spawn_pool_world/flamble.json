@@ -1,0 +1,61 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ebery-1",
+      "pokemon": "ebery",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "11-36",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#biome:is_floral"
+        ],
+        "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_arid"
+        ]
+      }
+    },
+    {
+      "id": "ebery-2",
+      "pokemon": "ebery",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "11-36",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "day",
+        "neededNearbyBlocks": [
+          "#cobblemon:flowers"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_floral",
+          "#biome:is_floral",
+          "#cobblemon:is_arid"
+        ]
+      }
+    }
+  ]
+}

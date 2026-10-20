@@ -1,0 +1,41 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "armillo-1",
+      "pokemon": "armillo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-50",
+      "weight": 0.95,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ]
+      }
+    },
+    {
+      "id": "armillo-2",
+      "pokemon": "armillo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-50",
+      "weight": 0.95,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
+      }
+    }
+  ]
+}

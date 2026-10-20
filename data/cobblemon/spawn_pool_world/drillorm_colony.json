@@ -1,0 +1,35 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "snoddle-1",
+      "pokemon": "snoddle",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 9.0,
+      "condition": {
+        "minY": 125,
+        "biomes": [
+          "#c:snowy",
+          "minecraft:frozen_peaks",
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "anticondition": {
+        "neededBaseBlocks": [
+          "minecraft:ice",
+          "minecraft:blue_ice",
+          "minecraft:packed_ice"
+        ],
+        "biomes": []
+      }
+    }
+  ]
+}

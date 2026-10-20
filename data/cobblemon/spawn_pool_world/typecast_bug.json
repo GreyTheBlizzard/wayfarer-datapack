@@ -1,0 +1,28 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tsareena-ender-1",
+      "pokemon": "tsareena ender",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "28-51",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:chorus_flower",
+          "minecraft:chorus_plant"
+        ]
+      }
+    }
+  ]
+}

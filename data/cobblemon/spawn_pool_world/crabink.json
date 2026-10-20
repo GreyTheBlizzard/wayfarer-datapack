@@ -1,0 +1,24 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "clamperl-ender-1",
+      "pokemon": "clamperl ender",
+      "presets": [
+        "end_city"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      }
+    }
+  ]
+}

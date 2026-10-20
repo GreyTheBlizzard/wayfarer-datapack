@@ -1,0 +1,45 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "katmir-1",
+      "pokemon": "katmir",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "katmir-2",
+      "pokemon": "katmir",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "terralith:desert_oasis"
+        ],
+        "timeRange": "day"
+      }
+    }
+  ]
+}

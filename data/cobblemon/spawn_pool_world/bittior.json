@@ -1,0 +1,89 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "alslimie-1",
+      "pokemon": "alslimie",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "22-50",
+      "weight": 0.5,
+      "weightMultiplier": {
+        "multiplier": 10.0,
+        "condition": {
+          "moonPhase": 0
+        }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "alslimie-2",
+      "pokemon": "alslimie",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "22-50",
+      "weight": 0.1,
+      "weightMultiplier": {
+        "multiplier": 10.0,
+        "condition": {
+          "moonPhase": 0
+        }
+      },
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "isSlimeChunk": true
+      }
+    },
+    {
+      "id": "alslimie-3",
+      "pokemon": "alslimie",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-50",
+      "weight": 0.1,
+      "weightMultiplier": {
+        "multiplier": 10.0,
+        "condition": {
+          "moonPhase": 0
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:slime_block"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

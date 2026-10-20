@@ -1,0 +1,24 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "blabully-1",
+      "pokemon": "blabully",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 3.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_crimson"
+        ]
+      }
+    }
+  ]
+}

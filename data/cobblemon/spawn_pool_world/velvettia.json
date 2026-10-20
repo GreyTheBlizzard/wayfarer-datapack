@@ -1,0 +1,34 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "typecast-psychic-1",
+      "pokemon": "typecast typecast_form=psychic",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "1-25",
+      "weight": 2.5,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bookshelf",
+            "minecraft:chiseled_bookshelf",
+            "minecraft:enchanting_table"
+          ]
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    }
+  ]
+}

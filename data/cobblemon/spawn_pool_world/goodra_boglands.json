@@ -1,0 +1,49 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "golisomite-1",
+      "pokemon": "golisomite ender",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-53",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:shadowlands"
+        ]
+      }
+    },
+    {
+      "id": "golisomite-2",
+      "pokemon": "golisomite ender",
+      "presets": [
+        "natural",
+        "coral_blocks"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-53",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:shadowlands"
+        ]
+      }
+    }
+  ]
+}

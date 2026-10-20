@@ -1,0 +1,48 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shinx-alatian-1",
+      "pokemon": "shinx alatian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "1-26",
+      "weight": 8.4,
+      "weightMultiplier": {
+        "multiplier": 0.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    },
+    {
+      "id": "shinx-alatian-2",
+      "pokemon": "shinx alatian",
+      "presets": [
+        "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "1-26",
+      "weight": 16.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    }
+  ]
+}

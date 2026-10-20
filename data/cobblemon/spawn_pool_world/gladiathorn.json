@@ -1,0 +1,39 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "frinx-1",
+      "pokemon": "frinx",
+      "presets": [
+        "natural",
+        "wild",
+        "treetop"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "1-25",
+      "weight": 9.0,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "isRaining": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      },
+      "anticondition": {
+        "neededBaseBlocks": [
+          "minecraft:ice",
+          "minecraft:blue_ice",
+          "minecraft:packed_ice"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "buzzlex-1",
+      "pokemon": "buzzlex",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "39-52",
+      "weight": 4.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
+      }
+    }
+  ]
+}

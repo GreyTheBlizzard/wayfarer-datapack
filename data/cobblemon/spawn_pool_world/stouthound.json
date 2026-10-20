@@ -1,0 +1,52 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "katmir-colony",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "weight": 4.5,
+      "levelRange": "30-50",
+      "maxHerdSize": 10,
+      "minDistanceBetweenSpawns": 1.5,
+      "herdablePokemon": [
+        {
+          "pokemon": "katmir",
+          "levelRange": "6-20",
+          "weight": 5,
+          "maxTimes": 8,
+          "levelRangeOffset": "-5-1"
+        },
+        {
+          "pokemon": "meerogue",
+          "levelRange": "31-35",
+          "weight": 1,
+          "maxTimes": 2,
+          "levelRangeOffset": "-5-1"
+        },
+        {
+          "pokemon": "surisham",
+          "isLeader": true,
+          "levelRange": "36-50",
+          "weight": 1,
+          "maxTimes": 1,
+          "levelRangeOffset": "-5-1"
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna",
+          "terralith:desert_oasis"
+        ],
+        "timeRange": "day"
+      }
+    }
+  ]
+}

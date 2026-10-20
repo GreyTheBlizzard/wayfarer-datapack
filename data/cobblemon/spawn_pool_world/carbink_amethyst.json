@@ -1,0 +1,28 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bounsweet-ender-1",
+      "pokemon": "bounsweet ender",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "1-21",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:chorus_flower",
+          "minecraft:chorus_plant"
+        ]
+      }
+    }
+  ]
+}

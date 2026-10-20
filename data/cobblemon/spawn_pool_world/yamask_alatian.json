@@ -1,0 +1,30 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "volparin-1",
+      "pokemon": "volparin",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 3.6,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_snowy"
+        ]
+      }
+    }
+  ]
+}

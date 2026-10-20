@@ -1,0 +1,48 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "luxio-alatian-1",
+      "pokemon": "luxio alatian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-36",
+      "weight": 1.44,
+      "weightMultiplier": {
+        "multiplier": 0.5,
+        "condition": {
+          "timeRange": "night"
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    },
+    {
+      "id": "luxio-alatian-2",
+      "pokemon": "luxio alatian",
+      "presets": [
+        "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-36",
+      "weight": 2.88,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    }
+  ]
+}

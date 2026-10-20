@@ -1,0 +1,40 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sephiredge-1",
+      "pokemon": "sephiredge",
+      "presets": [
+        "stronghold"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "weight": 1.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#minecraft:is_overworld"
+        ]
+      }
+    },
+    {
+      "id": "sephiredge-1",
+      "pokemon": "sephiredge",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "weight": 0.25,
+      "condition": {
+        "biomes": [
+          "#aether:is_aether"
+        ]
+      }
+    }
+  ]
+}

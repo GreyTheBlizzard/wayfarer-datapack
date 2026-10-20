@@ -1,0 +1,61 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "spinaga-1",
+      "pokemon": "spinaga",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-54",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#biome:is_floral"
+        ],
+        "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_arid"
+        ]
+      }
+    },
+    {
+      "id": "spinaga-2",
+      "pokemon": "spinaga",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-54",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "day",
+        "neededNearbyBlocks": [
+          "#cobblemon:flowers"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_floral",
+          "#biome:is_floral",
+          "#cobblemon:is_arid"
+        ]
+      }
+    }
+  ]
+}

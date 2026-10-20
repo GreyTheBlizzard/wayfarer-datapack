@@ -1,0 +1,30 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "jourenard-1",
+      "pokemon": "jourenard",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-52",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_snowy"
+        ]
+      }
+    }
+  ]
+}

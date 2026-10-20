@@ -1,0 +1,43 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ampularigus-1",
+      "pokemon": "ampularigus",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "34-48",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "ampularigus-2",
+      "pokemon": "ampularigus",
+      "presets": [
+        "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "34-48",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

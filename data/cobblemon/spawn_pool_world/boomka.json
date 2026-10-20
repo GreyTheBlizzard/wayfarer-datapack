@@ -1,0 +1,59 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bibishock-1",
+      "pokemon": "bibishock",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-36",
+      "weight": 1.68,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isThundering": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "bibishock-2",
+      "pokemon": "bibishock",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "11-36",
+      "weight": 1.68,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isThundering": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
+    }
+  ]
+}

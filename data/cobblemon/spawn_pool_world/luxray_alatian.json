@@ -1,0 +1,28 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lampent-alatian-1",
+      "pokemon": "lampent alatian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "41-46",
+      "weight": 0.95,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:village"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

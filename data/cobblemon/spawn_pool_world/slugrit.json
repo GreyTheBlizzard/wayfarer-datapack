@@ -1,0 +1,49 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shade-1",
+      "pokemon": "shade",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:shadowlands"
+        ]
+      }
+    },
+    {
+      "id": "shade-2",
+      "pokemon": "shade",
+      "presets": [
+        "natural",
+        "coral_blocks"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:shadowlands"
+        ]
+      }
+    }
+  ]
+}

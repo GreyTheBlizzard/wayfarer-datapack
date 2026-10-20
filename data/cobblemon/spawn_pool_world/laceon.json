@@ -1,0 +1,62 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "jellicent_ghast-1",
+      "pokemon": "jellicent grumpy_ghast",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "40-48",
+      "weight": 0.6,
+      "weightMultiplier": {
+        "multiplier": 10.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block",
+            "#minecraft:lava"
+          ]
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:nether/is_wasteland",
+          "#cobblemon:nether/is_desert",
+          "#cobblemon:nether/is_basalt"
+        ]
+      }
+    },
+    {
+      "id": "jellicent_ghast-2",
+      "pokemon": "jellicent apathy_ghast",
+      "presets": [
+        "natural",
+        "coral_blocks"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "40-48",
+      "weight": 0.6,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      },
+      "condition": {
+        "biomes": [
+          "nullscpae:shadowlands"
+        ]
+      }
+    }
+  ]
+}

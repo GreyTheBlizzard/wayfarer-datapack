@@ -1,0 +1,51 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ursashock-momma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "levelRange": "10-40",
+      "weight": 0.304,
+      "minDistanceBetweenSpawns": 1,
+      "herdablePokemon": [
+        {
+          "pokemon": "ursashock female",
+          "isLeader": true,
+          "levelRange": "45-54",
+          "maxTimes": 1,
+          "levelRangeOffset": "-5-1"
+        },
+        {
+          "pokemon": "bibishock",
+          "levelRange": "11-36",
+          "maxTimes": 2,
+          "levelRangeOffset": "-5-1"
+        }
+      ],
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isThundering": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
+    }
+  ]
+}

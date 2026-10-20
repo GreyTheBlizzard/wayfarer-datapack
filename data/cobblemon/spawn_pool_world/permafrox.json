@@ -1,0 +1,45 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "meerogue-1",
+      "pokemon": "meerogue",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-35",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "meerogue-2",
+      "pokemon": "meerogue",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-35",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "terralith:desert_oasis"
+        ],
+        "timeRange": "day"
+      }
+    }
+  ]
+}

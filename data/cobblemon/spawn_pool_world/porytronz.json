@@ -1,0 +1,46 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "poponee-1",
+      "pokemon": "poponee",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "16-28",
+      "weight": 50.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:chorus_flower",
+          "minecraft:chorus_plant"
+        ]
+      }
+    },
+    {
+      "id": "poponee-2",
+      "pokemon": "poponee",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "16-28",
+      "weight": 8.0,
+      "condition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:crystal_peaks"
+        ]
+      }
+    }
+  ]
+}

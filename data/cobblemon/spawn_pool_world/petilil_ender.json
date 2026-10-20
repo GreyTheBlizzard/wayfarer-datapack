@@ -1,0 +1,64 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "obyless-1",
+      "pokemon": "obyless",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-100",
+      "weight": 10,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:shadowlands"
+        ]
+      }
+    },
+    {
+      "id": "obyless-2",
+      "pokemon": "obyless",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "50-100",
+      "weight": 50,
+      "condition": {
+        "biomes": [
+          "dimdoors:limbo",
+          "dimdoors:black_void"
+        ]
+      }
+    },
+    {
+      "id": "obyless-3",
+      "pokemon": "obyless",
+      "presets": [
+        "natural",
+        "coral_blocks"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-100",
+      "weight": 20,
+      "condition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:shadowlands"
+        ]
+      }
+    }
+  ]
+}

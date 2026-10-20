@@ -1,0 +1,68 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "spritzee-midnight-1",
+      "pokemon": "spritzee midnight",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "9-34",
+      "weight": 5.52,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "minecraft:swamp_hut"
+        ]
+      }
+    },
+    {
+      "id": "spritzee-midnight-2",
+      "pokemon": "spritzee midnight",
+      "presets": [
+        "natural",
+        "coral_blocks"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "9-34",
+      "weight": 2.45,
+      "condition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:shadowlands"
+        ]
+      }
+    },
+    {
+      "id": "spritzee-midnight-3",
+      "pokemon": "spritzee midnight",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "9-34",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "nullscape:void_barrens",
+          "nullscape:shadowlands"
+        ]
+      }
+    }
+  ]
+}

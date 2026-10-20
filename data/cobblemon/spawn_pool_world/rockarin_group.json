@@ -1,0 +1,33 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sounoir-1",
+      "pokemon": "sounoir",
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "1-25",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_sky"
+        ],
+        "timeRange": "day",
+        "isRaining": false
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
+    }
+  ]
+}

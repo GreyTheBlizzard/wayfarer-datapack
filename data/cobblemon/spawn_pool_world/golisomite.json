@@ -1,0 +1,27 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gildenose-1",
+      "pokemon": "gildenose",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-53",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:oxeye_daisy"
+        ]
+      }
+    }
+  ]
+}

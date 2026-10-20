@@ -1,0 +1,43 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "silkloon-1",
+      "pokemon": "silkloon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "21-40",
+      "weight": 2.0,
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      }
+    },
+    {
+      "id": "silkloon-1",
+      "pokemon": "silkloon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "21-40",
+      "weight": 2.0,
+      "condition": {
+        "maxY": 50,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    }
+  ]
+}

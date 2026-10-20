@@ -1,0 +1,41 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "djinnferno-1",
+      "pokemon": "djinnferno",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "55-60",
+      "weight": 0.25,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volcanic"
+        ]
+      }
+    },
+    {
+      "id": "djinnferno-2",
+      "pokemon": "djinnferno",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "55-60",
+      "weight": 0.25,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_basalt"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dromijinn-1",
+      "pokemon": "dromijinn",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-52",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "terralith:desert_oasis"
+        ]
+      }
+    },
+    {
+      "id": "dromijinn-2",
+      "pokemon": "dromijinn",
+      "presets": [],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-52",
+      "weight": 0.4,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "structures": [
+            "#minecraft:village"
+          ]
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    }
+  ]
+}

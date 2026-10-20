@@ -1,0 +1,33 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rockarin-group",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "levelRange": "1-30",
+      "weight": 5.0,
+      "maxHerdSize": 6,
+      "minDistanceBetweenSpawns": 1.5,
+      "herdablePokemon": [
+        {
+          "pokemon": "rockarin",
+          "level": "1-30",
+          "maxTimes": 6
+        }
+      ],
+      "condition": {
+        "maxY": 0,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    }
+  ]
+}

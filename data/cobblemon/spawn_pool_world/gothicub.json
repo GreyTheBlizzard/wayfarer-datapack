@@ -1,0 +1,32 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "glameow-alatian-1",
+      "pokemon": "glameow alatian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "1-25",
+      "weight": 10.0,
+      "condition": {
+        "isRaining": false,
+        "isThundering": false,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_freezing"
+        ]
+      }
+    }
+  ]
+}

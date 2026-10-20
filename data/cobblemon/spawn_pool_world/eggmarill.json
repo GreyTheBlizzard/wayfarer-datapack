@@ -1,0 +1,45 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "druddigon-ender-1",
+      "pokemon": "druddigon ender",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      }
+    },
+    {
+      "id": "druddigon-ender-2",
+      "pokemon": "druddigon ender",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50-60",
+      "weight": 50.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:dragon_egg",
+          "minecraft:dragon_head"
+        ]
+      }
+    }
+  ]
+}

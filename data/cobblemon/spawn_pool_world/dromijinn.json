@@ -1,0 +1,24 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "drakoon-alatia-1",
+      "pokemon": "drakoon_alatia",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "24-47",
+      "weight": 3.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
+      }
+    }
+  ]
+}

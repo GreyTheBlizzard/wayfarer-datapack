@@ -1,0 +1,28 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chorusfleur-1",
+      "pokemon": "chorusfleur",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:chorus_flower",
+          "minecraft:chorus_plant"
+        ]
+      }
+    }
+  ]
+}

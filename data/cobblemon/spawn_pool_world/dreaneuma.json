@@ -1,0 +1,33 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "crystellar-1",
+      "pokemon": "crystellar",
+      "presets": [
+        "obsidian"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "32-67",
+      "weight": 5.0,
+      "weightMultiplier": {
+        "multiplier": 20.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_bars",
+            "minecraft:bedrock"
+          ]
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "carbink_amethyst-1",
+      "pokemon": "carbink amethyst",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 100.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:amethyst_block",
+          "minecraft:budding_amethyst",
+          "minecraft:small_amethyst_bud",
+          "minecraft:medium_amethyst_bud",
+          "minecraft:large_amethyst_bud",
+          "minecraft:amethyst_cluster"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      }
+    },
+    {
+      "id": "carbink_amethyst-2",
+      "pokemon": "carbink amethyst",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 25.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:amethyst_block",
+          "minecraft:budding_amethyst",
+          "minecraft:small_amethyst_bud",
+          "minecraft:medium_amethyst_bud",
+          "minecraft:large_amethyst_bud",
+          "minecraft:amethyst_cluster"
+        ]
+      }
+    }
+  ]
+}

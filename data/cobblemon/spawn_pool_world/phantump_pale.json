@@ -1,0 +1,28 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "petilil-ender-1",
+      "pokemon": "petilil ender",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:chorus_flower",
+          "minecraft:chorus_plant"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fomantis_lunar-1",
+      "pokemon": "fomantis lunar",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-25",
+      "weight": 9.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "fomantis_lunar-2",
+      "pokemon": "fomantis lunar",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-25",
+      "weight": 5.4,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_cherry_blossom"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "fomantis_lunar-3",
+      "pokemon": "fomantis lunar",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-25",
+      "weight": 5.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_end"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:chorus_flower",
+          "minecraft:chorus_plant"
+        ]
+      }
+    }
+  ]
+}

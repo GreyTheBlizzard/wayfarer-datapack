@@ -1,0 +1,42 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pyrong-1",
+      "pokemon": "pyrong",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60-80",
+      "weight": 0.01,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volcanic"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "pyrong-2",
+      "pokemon": "pyrong",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60-80",
+      "weight": 0.01,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
+      }
+    }
+  ]
+}

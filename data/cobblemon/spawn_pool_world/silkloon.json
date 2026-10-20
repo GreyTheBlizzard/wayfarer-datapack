@@ -1,0 +1,31 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sableye-alatian-1",
+      "pokemon": "sableye alatian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "13-38",
+      "weight": 30.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:iron_ore",
+          "minecraft:deepslate_iron_ore",
+          "minecraft:rail",
+          "create:veridium"
+        ]
+      }
+    }
+  ]
+}

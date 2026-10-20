@@ -1,0 +1,27 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gargrave-1",
+      "pokemon": "gargrave",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "40-60",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#cobblemon:ruins/henges"
+        ]
+      }
+    }
+  ]
+}

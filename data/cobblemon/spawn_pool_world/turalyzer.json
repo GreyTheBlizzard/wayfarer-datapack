@@ -1,0 +1,59 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tikishock-1",
+      "pokemon": "tikishock",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.304,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isThundering": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
+    },
+    {
+      "id": "tikishock-2",
+      "pokemon": "tikishock",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.304,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isThundering": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      }
+    }
+  ]
+}
