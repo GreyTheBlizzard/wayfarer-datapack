@@ -1,0 +1,24 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dralyura-1",
+      "pokemon": "dralyura",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
+      }
+    }
+  ]
+}

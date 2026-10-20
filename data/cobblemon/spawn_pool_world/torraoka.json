@@ -1,0 +1,85 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sympheon-1",
+      "pokemon": "sympheon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 1.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ]
+      }
+    },
+    {
+      "id": "sympheon-2",
+      "pokemon": "sympheon",
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    },
+    {
+      "id": "sympheon-3",
+      "pokemon": "sympheon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    },
+    {
+      "id": "sympheon-4",
+      "pokemon": "sympheon",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.1,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    }
+  ]
+}

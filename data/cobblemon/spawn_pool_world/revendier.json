@@ -1,0 +1,32 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "purlady-1",
+      "pokemon": "purlady",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-49",
+      "weight": 1.0,
+      "condition": {
+        "isRaining": false,
+        "isThundering": false,
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_freezing"
+        ]
+      }
+    }
+  ]
+}

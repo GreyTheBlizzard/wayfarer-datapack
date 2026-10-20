@@ -1,0 +1,24 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tinchoir-1",
+      "pokemon": "tinchoir",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "11-36",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      }
+    }
+  ]
+}

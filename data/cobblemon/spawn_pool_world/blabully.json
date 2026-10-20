@@ -1,0 +1,82 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "beaquin-1",
+      "pokemon": "beaquin",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-50",
+      "weight": 0.05,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "timeRange": "night"
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "beaquin-2",
+      "pokemon": "beaquin",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-50",
+      "weight": 0.1,
+      "condition": {
+        "neededNearbyBlocks": [
+          "#minecraft:beehives"
+        ],
+        "timeRange": "day",
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_freezing"
+        ]
+      }
+    },
+    {
+      "id": "beaquin-3",
+      "pokemon": "beaquin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "45-50",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#the_bumblezone:the_bumblezone"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "#the_bumblezone:sempiternal_sanctums"
+        ]
+      }
+    }
+  ]
+}

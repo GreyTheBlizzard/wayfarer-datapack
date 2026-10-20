@@ -1,0 +1,27 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "regitenebris-1",
+      "pokemon": "regitenebris",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "70-80",
+      "weight": 0.009,
+      "condition": {
+        "canSeeSky": false,
+        "maxLight": 0,
+        "labelMode": "ALL",
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    }
+  ]
+}

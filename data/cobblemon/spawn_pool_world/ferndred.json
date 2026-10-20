@@ -1,0 +1,48 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dromist-1",
+      "pokemon": "dromist",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 3.6,
+      "condition": {
+        "biomes": [
+          "terralith:desert_oasis"
+        ]
+      }
+    },
+    {
+      "id": "dromist-2",
+      "pokemon": "dromist",
+      "presets": [],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 3.6,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "structures": [
+            "#minecraft:village"
+          ]
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    }
+  ]
+}

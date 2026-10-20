@@ -1,0 +1,51 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "klinkopter-1",
+      "pokemon": "klinkopter",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "49-52",
+      "weight": 0.1,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    },
+    {
+      "id": "klinkopter-2",
+      "pokemon": "klinkopter",
+      "presets": [
+        "redstone"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "49-52",
+      "weight": 0.02,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "create:cogwheel",
+          "create:large_cogwheel",
+          "create:gearbox",
+          "create:vertical_gearbox"
+        ]
+      }
+    }
+  ]
+}

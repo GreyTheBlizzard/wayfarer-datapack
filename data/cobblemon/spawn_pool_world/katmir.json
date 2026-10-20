@@ -1,0 +1,35 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "icicranid-1",
+      "pokemon": "icicranid",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "34-49",
+      "weight": 1.0,
+      "condition": {
+        "minY": 125,
+        "biomes": [
+          "#c:snowy",
+          "minecraft:frozen_peaks",
+          "#cobblemon:is_freezing"
+        ]
+      },
+      "anticondition": {
+        "neededBaseBlocks": [
+          "minecraft:ice",
+          "minecraft:blue_ice",
+          "minecraft:packed_ice"
+        ],
+        "biomes": []
+      }
+    }
+  ]
+}

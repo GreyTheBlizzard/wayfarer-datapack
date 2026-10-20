@@ -1,0 +1,44 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ferndred-1",
+      "pokemon": "ferndred",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-52",
+      "weight": 0.4,
+      "condition": {
+        "maxY": 0,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "ferndred-2",
+      "pokemon": "ferndred",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-52",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chortoise-1",
+      "pokemon": "chortoise",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "30-50",
+      "weight": 0.95,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean"
+        ]
+      }
+    }
+  ]
+}

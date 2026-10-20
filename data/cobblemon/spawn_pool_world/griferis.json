@@ -1,0 +1,131 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "glideon-1",
+      "pokemon": "glideon",
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 1.2,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isRaining": true
+        }
+      },
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ]
+      }
+    },
+    {
+      "id": "glideon-2",
+      "pokemon": "glideon",
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isRaining": true
+        }
+      },
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    },
+    {
+      "id": "glideon-3",
+      "pokemon": "glideon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isRaining": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    },
+    {
+      "id": "glideon-4",
+      "pokemon": "glideon",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.125,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isRaining": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    },
+    {
+      "id": "glideon-5",
+      "pokemon": "glideon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 1.2,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "isRaining": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky"
+        ]
+      }
+    }
+  ]
+}

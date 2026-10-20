@@ -1,0 +1,48 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "droppel-1",
+      "pokemon": "droppel",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "terralith:desert_oasis"
+        ]
+      }
+    },
+    {
+      "id": "droppel-2",
+      "pokemon": "droppel",
+      "presets": [],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 6.0,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "structures": [
+            "#minecraft:village"
+          ]
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
+      }
+    }
+  ]
+}

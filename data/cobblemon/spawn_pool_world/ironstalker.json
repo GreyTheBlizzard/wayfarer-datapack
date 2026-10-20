@@ -1,0 +1,139 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hissilly-red",
+      "pokemon": "hissilly coral_color=red",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 7.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    },
+    {
+      "id": "hissilly-blue",
+      "pokemon": "hissilly coral_color=blue",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 7.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    },
+    {
+      "id": "hissilly-green",
+      "pokemon": "hissilly coral_color=green",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 7.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    },
+    {
+      "id": "hissilly-purple",
+      "pokemon": "hissilly coral_color=purple",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 7.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    },
+    {
+      "id": "hissilly-yellow",
+      "pokemon": "hissilly coral_color=yellow",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 7.2,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    },
+    {
+      "id": "hissilly-pink",
+      "pokemon": "hissilly coral_color=pink",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 0.72,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "klang-alatian-1",
+      "pokemon": "klang alatian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "38-44",
+      "weight": 0.9,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    },
+    {
+      "id": "klang-alatian-2",
+      "pokemon": "klang alatian",
+      "presets": [
+        "redstone"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "38-44",
+      "weight": 0.18,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "create:cogwheel",
+          "create:large_cogwheel",
+          "create:gearbox",
+          "create:vertical_gearbox"
+        ]
+      }
+    }
+  ]
+}

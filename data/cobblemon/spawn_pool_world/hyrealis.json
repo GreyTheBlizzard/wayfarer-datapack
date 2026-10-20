@@ -1,0 +1,27 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "griphoon-1",
+      "pokemon": "griphoon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "24-47",
+      "weight": 3.6,
+      "condition": {
+        "minY": 120,
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "timeRange": "day",
+        "isRaining": false
+      }
+    }
+  ]
+}

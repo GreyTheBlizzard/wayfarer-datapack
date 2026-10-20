@@ -1,0 +1,47 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "griferis-1",
+      "pokemon": "griferis",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60-80",
+      "weight": 0.01,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "timeRange": "day",
+        "isRaining": false
+      }
+    },
+    {
+      "id": "griferis-2",
+      "pokemon": "griferis",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60-80",
+      "weight": 0.01,
+      "condition": {
+        "minY": 150,
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
+        "timeRange": "day",
+        "isRaining": false
+      }
+    }
+  ]
+}

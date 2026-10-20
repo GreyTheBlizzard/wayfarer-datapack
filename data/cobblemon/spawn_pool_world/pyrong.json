@@ -1,0 +1,86 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "prismeon_alatia-1",
+      "pokemon": "prismeon_alatia",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 1.2,
+      "condition": {
+        "timeRange": "day",
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ]
+      }
+    },
+    {
+      "id": "prismeon_alatia-2",
+      "pokemon": "prismeon_alatia",
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "condition": {
+        "timeRange": "day",
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    },
+    {
+      "id": "prismeon_alatia-3",
+      "pokemon": "prismeon_alatia",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.02,
+      "condition": {
+        "timeRange": "day",
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    },
+    {
+      "id": "prismeon_alatia-4",
+      "pokemon": "prismeon_alatia",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "28-53",
+      "weight": 0.1,
+      "condition": {
+        "canSeeSky": false,
+        "timeRange": "day",
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    }
+  ]
+}

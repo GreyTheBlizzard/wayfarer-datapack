@@ -1,0 +1,139 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hissicobra-red",
+      "pokemon": "hissicobra coral_color=red",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "32-44",
+      "weight": 0.72,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    },
+    {
+      "id": "hissicobra-blue",
+      "pokemon": "hissicobra coral_color=blue",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "32-44",
+      "weight": 0.72,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    },
+    {
+      "id": "hissicobra-purple",
+      "pokemon": "hissicobra coral_color=purple",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "32-44",
+      "weight": 0.72,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    },
+    {
+      "id": "hissicobra-green",
+      "pokemon": "hissicobra coral_color=green",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "32-44",
+      "weight": 0.72,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    },
+    {
+      "id": "hissicobra-yellow",
+      "pokemon": "hissicobra coral_color=yellow",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "32-44",
+      "weight": 0.72,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    },
+    {
+      "id": "hissicobra-pink",
+      "pokemon": "hissicobra coral_color=pink",
+      "presets": [
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "32-44",
+      "weight": 0.072,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#biome:is_warm_ocean"
+        ],
+        "neededNearbyBlocks": [
+          "#minecraft:coral_blocks",
+          "#c:coral_blocks"
+        ]
+      }
+    }
+  ]
+}
