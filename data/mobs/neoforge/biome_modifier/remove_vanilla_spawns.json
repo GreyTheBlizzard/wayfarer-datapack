@@ -66,6 +66,7 @@
     "minecraft:witch",
     "minecraft:wolf",
     "minecraft:zombie_horse",
-    "minecraft:zombie_villager"
+    "minecraft:zombie_villager",
+    "minecraft:skeleton"
   ]
 }
