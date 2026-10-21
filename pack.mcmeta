@@ -1,9 +1,10 @@
+
 {
   "pack": {
     "description": "1.21.1 Trailblazers Datapack",
     "pack_format": 48
   },
-    "filter": {
+  "filter": {
     "block": [
       {
         "namespace": "cobblemon",
@@ -16,7 +17,19 @@
       {
         "namespace": "cobblemon",
         "path": "fossils/typenull\\.json"
-      }
+      },
+      {
+        "namespace": "cobblemon",
+        "path": "recipe/healing_machine\\.json"
+      },
+      {
+        "namespace": "cobblemon",
+        "path": "recipe/pc\\.json"
+      },
+      {
+      "namespace": "mega_showdown",
+      "path": "worldgen/structure_set/observatory\\.json"
+}
     ]
   }
 }
