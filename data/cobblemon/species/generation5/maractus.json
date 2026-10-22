@@ -23,9 +23,9 @@
   ],
   "baseStats": {
     "hp": 75,
-    "attack": 67,
+    "attack": 115,
     "defence": 67,
-    "special_attack": 115,
+    "special_attack": 67,
     "special_defence": 67,
     "speed": 67
   },
@@ -115,7 +115,7 @@
     "32:synthesis",
     "36:petalblizzard",
     "40:cottonspore",
-    "42:quiverdance",
+    "42:victorydance",
     "44:sunnyday",
     "48:solarbeam",
     "52:acupressure",
