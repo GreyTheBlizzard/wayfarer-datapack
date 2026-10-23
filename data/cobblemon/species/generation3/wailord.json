@@ -14,9 +14,9 @@
   ],
   "aspects": [],
   "abilities": [
-    "unaware",
-    "pressure",
-    "h:oblivious"
+    "aftermath",
+    "waterveil",
+    "h:pressure"
   ],
   "eggGroups": [
     "field",
