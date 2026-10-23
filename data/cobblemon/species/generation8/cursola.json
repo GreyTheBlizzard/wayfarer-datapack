@@ -3,6 +3,7 @@
   "nationalPokedexNumber": 864,
   "name": "Cursola",
   "primaryType": "ghost",
+  "secondaryType": "rock",
   "maleRatio": 0.25,
   "height": 10,
   "weight": 4,
