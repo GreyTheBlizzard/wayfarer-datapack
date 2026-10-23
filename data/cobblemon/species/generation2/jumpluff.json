@@ -97,6 +97,10 @@
       {
         "item": "cobblemon:yache_berry",
         "percentage": 10.0
+      },
+      {
+        "item": "kaleidoscope_grilling:houttuynia",
+        "quantityRange": "1-2"
       }
     ]
   },
